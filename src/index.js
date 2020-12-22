@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react';
+import React,{ useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import main from './main.png';
+import './app.css';
 
 function ScratchCard(props) {
 	const coverImg = useRef(null);

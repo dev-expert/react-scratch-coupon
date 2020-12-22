@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {render} from 'react-dom'
 
 import ScratchCard from '../../src'
-import couponCover from './couponCover.jpg';
+import couponCover from './couponCover.png';
 
 export default class Demo extends Component {
   render() {
