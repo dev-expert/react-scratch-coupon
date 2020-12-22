@@ -1,11 +1,8 @@
-import React,{ useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import main from './main.png';
-import './app.css';
 
 function ScratchCard(props) {
 	const coverImg = useRef(null);
-
 
 	function main() {
 		var isDrawing, lastPoint;
@@ -126,21 +123,30 @@ function ScratchCard(props) {
 		main()
 	}, [props.children])
 	return (
-		<div className="App"><div className="container" id="js-container">
-			<canvas className="canvas" id="js-canvas" width={props.width} height={props.height}></canvas>
-			<div className="originalDiv" style={{ visibility: "hidden" }}>
+		<div className="App"><div className="container" id="js-container" style={{
+			border: '3px solid yellow',
+			position: 'relative',
+			width: '300px',
+			height: '300px',
+			margin: '0 auto'
+		}}>
+			<canvas className="canvas" id="js-canvas" width={props.width} height={props.height} style={{
+				position: 'absolute',
+				top: 0
+			}}></canvas>
+			<div className="originalDiv" style={{ visibility: "hidden", padding: '20px' }}>
 				{props.children}
 			</div>
-			<img ref={coverImg} src={props.cover} className="hidden" />
+			<img ref={coverImg} src={props.cover} className="hidden" style={{ visibility: 'hidden' }} />
 		</div>
-		</div>
+		</div >
 	);
 }
 
-ScratchCard.defaultProps  = {
+ScratchCard.defaultProps = {
 	width: 300,
 	height: 300,
-	cover: main
+	cover: ''
 }
 
 
