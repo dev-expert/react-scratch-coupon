@@ -28,11 +28,16 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
-  "author": "",
-  "homepage": "",
+  "author": "appwrk",
+  "homepage": "https://github.com/dev-expert/react-scratch-coupon",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/dev-expert/react-scratch-coupon",
   "keywords": [
-    "react-component"
+    "react-component",
+    "scratch-card",
+    "scratch-coupon",
+    "react-scratch-coupon",
+    "react-scratch",
+    "scratch-off"
   ]
 }
