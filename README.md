@@ -11,6 +11,7 @@ yarn add react-scratch-coupon
 ```
 
 ## Usage
+```
 import ScratchCard from 'react-scratch-coupon'
 import couponCover from './couponCover.jpg';
 
@@ -34,6 +35,7 @@ export default class Demo extends Component {
     </div>
   }
 }
+```
 
 ## References
 - http://bencentra.com/code/2014/12/05/html5-canvas-touch-events.html
