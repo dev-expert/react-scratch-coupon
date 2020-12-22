@@ -39,7 +39,7 @@ export default class Demo extends Component {
 
 ## References
 - http://bencentra.com/code/2014/12/05/html5-canvas-touch-events.html
-- https://codesandbox.io/s/kon73lw085
+- https://codesandbox.io/s/frosty-ellis-eq4m0
 - https://github.com/aleksik/react-scratchcard
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
