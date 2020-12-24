@@ -8,7 +8,7 @@ export default class Demo extends Component {
   render() {
     return <div>
       <h1>react-scratch-coupon Demo</h1>
-	  <ScratchCard width={300} height={300} cover={couponCover}>
+	  <ScratchCard width={300} height={300} >
 			<form className="form" >
 				<h2>Hello There!</h2>
 				<h1><code>Coupon code : 1651613335</code></h1>
