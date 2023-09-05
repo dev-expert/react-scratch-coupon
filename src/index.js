@@ -84,7 +84,8 @@ function ScratchCard(props) {
 			filledInPixels = filledInPixels || 0;
 			console.log(filledInPixels + '%');
 			if (filledInPixels > 50 && canvas.parentNode) {
-				canvas.parentNode.removeChild(canvas);
+localStorage.setItem('scrached', true)
+	canvas.parentNode.removeChild(canvas);
 			}
 		}
 
